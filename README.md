@@ -189,7 +189,7 @@ Finally, we override the `initWithFrame` method of the `OpenGLView` to add a tim
 }
 ```
 
-![](assets/openGLSquare.gif)
+![](assets/openGLAnimation.gif)
 
 While this example is pretty straightforward, you can see how things might get complicated when you wanted to, for instance, resize multiple elements at once when shrinking a window. Back in the day, you'd also need to take care to make the animation sync up with your screen refresh rate. 
 
