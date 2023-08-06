@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1613060D2A7A295B00C7D0B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1613060C2A7A295B00C7D0B5 /* AppDelegate.m */; };
+		161306102A7A295B00C7D0B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1613060F2A7A295B00C7D0B5 /* ViewController.m */; };
+		161306122A7A295C00C7D0B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161306112A7A295C00C7D0B5 /* Assets.xcassets */; };
+		161306152A7A295C00C7D0B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161306132A7A295C00C7D0B5 /* Main.storyboard */; };
+		161306172A7A295C00C7D0B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 161306162A7A295C00C7D0B5 /* main.m */; };
+		16A7981D2A7A2BB30075299D /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A7981C2A7A2BB30075299D /* MyOpenGLView.m */; };
+		16A7981E2A7A30800075299D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1613061F2A7A296500C7D0B5 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		161306082A7A295B00C7D0B5 /* ATTAOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATTAOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1613060B2A7A295B00C7D0B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1613060C2A7A295B00C7D0B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1613060E2A7A295B00C7D0B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1613060F2A7A295B00C7D0B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		161306112A7A295C00C7D0B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		161306142A7A295C00C7D0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		161306162A7A295C00C7D0B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		161306182A7A295C00C7D0B5 /* ATTAOpenGL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ATTAOpenGL.entitlements; sourceTree = "<group>"; };
+		1613061F2A7A296500C7D0B5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		16A7981B2A7A2BAA0075299D /* MyOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		16A7981C2A7A2BB30075299D /* MyOpenGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		161306052A7A295B00C7D0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A7981E2A7A30800075299D /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		161305FF2A7A295B00C7D0B5 = {
+			isa = PBXGroup;
+			children = (
+				1613060A2A7A295B00C7D0B5 /* ATTAOpenGL */,
+				161306092A7A295B00C7D0B5 /* Products */,
+				1613061E2A7A296400C7D0B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		161306092A7A295B00C7D0B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				161306082A7A295B00C7D0B5 /* ATTAOpenGL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1613060A2A7A295B00C7D0B5 /* ATTAOpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				161306232A7A29E100C7D0B5 /* OpenGL */,
+				161306222A7A29D900C7D0B5 /* View */,
+				161306212A7A29D300C7D0B5 /* App */,
+			);
+			path = ATTAOpenGL;
+			sourceTree = "<group>";
+		};
+		1613061E2A7A296400C7D0B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1613061F2A7A296500C7D0B5 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		161306212A7A29D300C7D0B5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				161306162A7A295C00C7D0B5 /* main.m */,
+				1613060B2A7A295B00C7D0B5 /* AppDelegate.h */,
+				1613060C2A7A295B00C7D0B5 /* AppDelegate.m */,
+				161306182A7A295C00C7D0B5 /* ATTAOpenGL.entitlements */,
+				161306112A7A295C00C7D0B5 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		161306222A7A29D900C7D0B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1613060E2A7A295B00C7D0B5 /* ViewController.h */,
+				1613060F2A7A295B00C7D0B5 /* ViewController.m */,
+				161306132A7A295C00C7D0B5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		161306232A7A29E100C7D0B5 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				16A7981B2A7A2BAA0075299D /* MyOpenGLView.h */,
+				16A7981C2A7A2BB30075299D /* MyOpenGLView.m */,
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		161306072A7A295B00C7D0B5 /* ATTAOpenGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1613061B2A7A295C00C7D0B5 /* Build configuration list for PBXNativeTarget "ATTAOpenGL" */;
+			buildPhases = (
+				161306042A7A295B00C7D0B5 /* Sources */,
+				161306052A7A295B00C7D0B5 /* Frameworks */,
+				161306062A7A295B00C7D0B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATTAOpenGL;
+			productName = ATTAOpenGL;
+			productReference = 161306082A7A295B00C7D0B5 /* ATTAOpenGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		161306002A7A295B00C7D0B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					161306072A7A295B00C7D0B5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 161306032A7A295B00C7D0B5 /* Build configuration list for PBXProject "ATTAOpenGL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 161305FF2A7A295B00C7D0B5;
+			productRefGroup = 161306092A7A295B00C7D0B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				161306072A7A295B00C7D0B5 /* ATTAOpenGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		161306062A7A295B00C7D0B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161306122A7A295C00C7D0B5 /* Assets.xcassets in Resources */,
+				161306152A7A295C00C7D0B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		161306042A7A295B00C7D0B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161306102A7A295B00C7D0B5 /* ViewController.m in Sources */,
+				161306172A7A295C00C7D0B5 /* main.m in Sources */,
+				1613060D2A7A295B00C7D0B5 /* AppDelegate.m in Sources */,
+				16A7981D2A7A2BB30075299D /* MyOpenGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		161306132A7A295C00C7D0B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				161306142A7A295C00C7D0B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		161306192A7A295C00C7D0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1613061A2A7A295C00C7D0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1613061C2A7A295C00C7D0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ATTAOpenGL/App/ATTAOpenGL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-DGL_SILENCE_DEPRECATION\n";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.ATTAOpenGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		1613061D2A7A295C00C7D0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ATTAOpenGL/App/ATTAOpenGL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-DGL_SILENCE_DEPRECATION\n";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.ATTAOpenGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		161306032A7A295B00C7D0B5 /* Build configuration list for PBXProject "ATTAOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				161306192A7A295C00C7D0B5 /* Debug */,
+				1613061A2A7A295C00C7D0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1613061B2A7A295C00C7D0B5 /* Build configuration list for PBXNativeTarget "ATTAOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1613061C2A7A295C00C7D0B5 /* Debug */,
+				1613061D2A7A295C00C7D0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 161306002A7A295B00C7D0B5 /* Project object */;
+}
