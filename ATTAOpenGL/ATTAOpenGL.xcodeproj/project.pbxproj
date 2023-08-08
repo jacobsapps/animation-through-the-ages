@@ -7,80 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		168D2F902A8153CC0059AD34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 168D2F8F2A8153CC0059AD34 /* AppDelegate.m */; };
-		168D2F932A8153CC0059AD34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168D2F922A8153CC0059AD34 /* ViewController.m */; };
-		168D2F952A8153CD0059AD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168D2F942A8153CD0059AD34 /* Assets.xcassets */; };
-		168D2F982A8153CD0059AD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168D2F962A8153CD0059AD34 /* Main.storyboard */; };
-		168D2F9A2A8153CD0059AD34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 168D2F992A8153CD0059AD34 /* main.m */; };
-		168D2FA32A8153E00059AD34 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168D2FA22A8153E00059AD34 /* OpenGL.framework */; };
-		168D2FA62A81541B0059AD34 /* ATTAOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 168D2FA52A81541B0059AD34 /* ATTAOpenGLView.m */; };
+		16AD95D62A82C60B00FE45DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD95D52A82C60B00FE45DD /* AppDelegate.m */; };
+		16AD95D92A82C60B00FE45DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD95D82A82C60B00FE45DD /* ViewController.m */; };
+		16AD95DB2A82C60C00FE45DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AD95DA2A82C60C00FE45DD /* Assets.xcassets */; };
+		16AD95DE2A82C60C00FE45DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AD95DC2A82C60C00FE45DD /* Main.storyboard */; };
+		16AD95E02A82C60C00FE45DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD95DF2A82C60C00FE45DD /* main.m */; };
+		16AD95E92A82C63200FE45DD /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AD95E82A82C63200FE45DD /* OpenGL.framework */; };
+		16AD95EC2A82C64000FE45DD /* ATTAOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16AD95EB2A82C64000FE45DD /* ATTAOpenGLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		168D2F8B2A8153CC0059AD34 /* ATTAOpenGraphicsLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATTAOpenGraphicsLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		168D2F8E2A8153CC0059AD34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		168D2F8F2A8153CC0059AD34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		168D2F912A8153CC0059AD34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		168D2F922A8153CC0059AD34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		168D2F942A8153CD0059AD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		168D2F972A8153CD0059AD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		168D2F992A8153CD0059AD34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		168D2F9B2A8153CD0059AD34 /* ATTAOpenGraphicsLibrary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ATTAOpenGraphicsLibrary.entitlements; sourceTree = "<group>"; };
-		168D2FA22A8153E00059AD34 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		168D2FA42A8154150059AD34 /* ATTAOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATTAOpenGLView.h; sourceTree = "<group>"; };
-		168D2FA52A81541B0059AD34 /* ATTAOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTAOpenGLView.m; sourceTree = "<group>"; };
+		16AD95D12A82C60B00FE45DD /* ATTAOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATTAOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16AD95D42A82C60B00FE45DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16AD95D52A82C60B00FE45DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16AD95D72A82C60B00FE45DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16AD95D82A82C60B00FE45DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16AD95DA2A82C60C00FE45DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16AD95DD2A82C60C00FE45DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16AD95DF2A82C60C00FE45DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16AD95E12A82C60C00FE45DD /* ATTAOpenGL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ATTAOpenGL.entitlements; sourceTree = "<group>"; };
+		16AD95E82A82C63200FE45DD /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		16AD95EA2A82C63C00FE45DD /* ATTAOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATTAOpenGLView.h; sourceTree = "<group>"; };
+		16AD95EB2A82C64000FE45DD /* ATTAOpenGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATTAOpenGLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		168D2F882A8153CC0059AD34 /* Frameworks */ = {
+		16AD95CE2A82C60B00FE45DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				168D2FA32A8153E00059AD34 /* OpenGL.framework in Frameworks */,
+				16AD95E92A82C63200FE45DD /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		168D2F822A8153CC0059AD34 = {
+		16AD95C82A82C60B00FE45DD = {
 			isa = PBXGroup;
 			children = (
-				168D2F8D2A8153CC0059AD34 /* ATTAOpenGraphicsLibrary */,
-				168D2F8C2A8153CC0059AD34 /* Products */,
-				168D2FA12A8153DF0059AD34 /* Frameworks */,
+				16AD95D32A82C60B00FE45DD /* ATTAOpenGL */,
+				16AD95D22A82C60B00FE45DD /* Products */,
+				16AD95E72A82C63200FE45DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		168D2F8C2A8153CC0059AD34 /* Products */ = {
+		16AD95D22A82C60B00FE45DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				168D2F8B2A8153CC0059AD34 /* ATTAOpenGraphicsLibrary.app */,
+				16AD95D12A82C60B00FE45DD /* ATTAOpenGL.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		168D2F8D2A8153CC0059AD34 /* ATTAOpenGraphicsLibrary */ = {
+		16AD95D32A82C60B00FE45DD /* ATTAOpenGL */ = {
 			isa = PBXGroup;
 			children = (
-				168D2F8E2A8153CC0059AD34 /* AppDelegate.h */,
-				168D2F8F2A8153CC0059AD34 /* AppDelegate.m */,
-				168D2F912A8153CC0059AD34 /* ViewController.h */,
-				168D2F922A8153CC0059AD34 /* ViewController.m */,
-				168D2FA42A8154150059AD34 /* ATTAOpenGLView.h */,
-				168D2FA52A81541B0059AD34 /* ATTAOpenGLView.m */,
-				168D2F942A8153CD0059AD34 /* Assets.xcassets */,
-				168D2F962A8153CD0059AD34 /* Main.storyboard */,
-				168D2F992A8153CD0059AD34 /* main.m */,
-				168D2F9B2A8153CD0059AD34 /* ATTAOpenGraphicsLibrary.entitlements */,
+				16AD95D42A82C60B00FE45DD /* AppDelegate.h */,
+				16AD95D52A82C60B00FE45DD /* AppDelegate.m */,
+				16AD95EA2A82C63C00FE45DD /* ATTAOpenGLView.h */,
+				16AD95EB2A82C64000FE45DD /* ATTAOpenGLView.m */,
+				16AD95D72A82C60B00FE45DD /* ViewController.h */,
+				16AD95D82A82C60B00FE45DD /* ViewController.m */,
+				16AD95DA2A82C60C00FE45DD /* Assets.xcassets */,
+				16AD95DC2A82C60C00FE45DD /* Main.storyboard */,
+				16AD95DF2A82C60C00FE45DD /* main.m */,
+				16AD95E12A82C60C00FE45DD /* ATTAOpenGL.entitlements */,
 			);
-			path = ATTAOpenGraphicsLibrary;
+			path = ATTAOpenGL;
 			sourceTree = "<group>";
 		};
-		168D2FA12A8153DF0059AD34 /* Frameworks */ = {
+		16AD95E72A82C63200FE45DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				168D2FA22A8153E00059AD34 /* OpenGL.framework */,
+				16AD95E82A82C63200FE45DD /* OpenGL.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,38 +88,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		168D2F8A2A8153CC0059AD34 /* ATTAOpenGraphicsLibrary */ = {
+		16AD95D02A82C60B00FE45DD /* ATTAOpenGL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 168D2F9E2A8153CD0059AD34 /* Build configuration list for PBXNativeTarget "ATTAOpenGraphicsLibrary" */;
+			buildConfigurationList = 16AD95E42A82C60C00FE45DD /* Build configuration list for PBXNativeTarget "ATTAOpenGL" */;
 			buildPhases = (
-				168D2F872A8153CC0059AD34 /* Sources */,
-				168D2F882A8153CC0059AD34 /* Frameworks */,
-				168D2F892A8153CC0059AD34 /* Resources */,
+				16AD95CD2A82C60B00FE45DD /* Sources */,
+				16AD95CE2A82C60B00FE45DD /* Frameworks */,
+				16AD95CF2A82C60B00FE45DD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ATTAOpenGraphicsLibrary;
-			productName = ATTAOpenGraphicsLibrary;
-			productReference = 168D2F8B2A8153CC0059AD34 /* ATTAOpenGraphicsLibrary.app */;
+			name = ATTAOpenGL;
+			productName = ATTAOpenGL;
+			productReference = 16AD95D12A82C60B00FE45DD /* ATTAOpenGL.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		168D2F832A8153CC0059AD34 /* Project object */ = {
+		16AD95C92A82C60B00FE45DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					168D2F8A2A8153CC0059AD34 = {
+					16AD95D02A82C60B00FE45DD = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 168D2F862A8153CC0059AD34 /* Build configuration list for PBXProject "ATTAOpenGraphicsLibrary" */;
+			buildConfigurationList = 16AD95CC2A82C60B00FE45DD /* Build configuration list for PBXProject "ATTAOpenGL" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,47 +127,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 168D2F822A8153CC0059AD34;
-			productRefGroup = 168D2F8C2A8153CC0059AD34 /* Products */;
+			mainGroup = 16AD95C82A82C60B00FE45DD;
+			productRefGroup = 16AD95D22A82C60B00FE45DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				168D2F8A2A8153CC0059AD34 /* ATTAOpenGraphicsLibrary */,
+				16AD95D02A82C60B00FE45DD /* ATTAOpenGL */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		168D2F892A8153CC0059AD34 /* Resources */ = {
+		16AD95CF2A82C60B00FE45DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				168D2F952A8153CD0059AD34 /* Assets.xcassets in Resources */,
-				168D2F982A8153CD0059AD34 /* Main.storyboard in Resources */,
+				16AD95DB2A82C60C00FE45DD /* Assets.xcassets in Resources */,
+				16AD95DE2A82C60C00FE45DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		168D2F872A8153CC0059AD34 /* Sources */ = {
+		16AD95CD2A82C60B00FE45DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				168D2F932A8153CC0059AD34 /* ViewController.m in Sources */,
-				168D2FA62A81541B0059AD34 /* ATTAOpenGLView.m in Sources */,
-				168D2F9A2A8153CD0059AD34 /* main.m in Sources */,
-				168D2F902A8153CC0059AD34 /* AppDelegate.m in Sources */,
+				16AD95D92A82C60B00FE45DD /* ViewController.m in Sources */,
+				16AD95EC2A82C64000FE45DD /* ATTAOpenGLView.m in Sources */,
+				16AD95E02A82C60C00FE45DD /* main.m in Sources */,
+				16AD95D62A82C60B00FE45DD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		168D2F962A8153CD0059AD34 /* Main.storyboard */ = {
+		16AD95DC2A82C60C00FE45DD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				168D2F972A8153CD0059AD34 /* Base */,
+				16AD95DD2A82C60C00FE45DD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		168D2F9C2A8153CD0059AD34 /* Debug */ = {
+		16AD95E22A82C60C00FE45DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		168D2F9D2A8153CD0059AD34 /* Release */ = {
+		16AD95E32A82C60C00FE45DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,12 +284,12 @@
 			};
 			name = Release;
 		};
-		168D2F9F2A8153CD0059AD34 /* Debug */ = {
+		16AD95E52A82C60C00FE45DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ATTAOpenGraphicsLibrary/ATTAOpenGraphicsLibrary.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ATTAOpenGL/ATTAOpenGL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -303,18 +303,18 @@
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_CFLAGS = "-DGL_SILENCE_DEPRECATION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.ATTAOpenGraphicsLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.ATTAOpenGL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Debug;
 		};
-		168D2FA02A8153CD0059AD34 /* Release */ = {
+		16AD95E62A82C60C00FE45DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ATTAOpenGraphicsLibrary/ATTAOpenGraphicsLibrary.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ATTAOpenGL/ATTAOpenGL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -328,7 +328,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_CFLAGS = "-DGL_SILENCE_DEPRECATION";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.ATTAOpenGraphicsLibrary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.ATTAOpenGL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
@@ -337,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		168D2F862A8153CC0059AD34 /* Build configuration list for PBXProject "ATTAOpenGraphicsLibrary" */ = {
+		16AD95CC2A82C60B00FE45DD /* Build configuration list for PBXProject "ATTAOpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				168D2F9C2A8153CD0059AD34 /* Debug */,
-				168D2F9D2A8153CD0059AD34 /* Release */,
+				16AD95E22A82C60C00FE45DD /* Debug */,
+				16AD95E32A82C60C00FE45DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		168D2F9E2A8153CD0059AD34 /* Build configuration list for PBXNativeTarget "ATTAOpenGraphicsLibrary" */ = {
+		16AD95E42A82C60C00FE45DD /* Build configuration list for PBXNativeTarget "ATTAOpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				168D2F9F2A8153CD0059AD34 /* Debug */,
-				168D2FA02A8153CD0059AD34 /* Release */,
+				16AD95E52A82C60C00FE45DD /* Debug */,
+				16AD95E62A82C60C00FE45DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 168D2F832A8153CC0059AD34 /* Project object */;
+	rootObject = 16AD95C92A82C60B00FE45DD /* Project object */;
 }

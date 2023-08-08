@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  ATTAOpenGraphicsLibrary
+//  ATTAOpenGL
 //
-//  Created by Jacob Bartlett on 07/08/2023.
+//  Created by Jacob Bartlett on 08/08/2023.
 //
 
 #import "AppDelegate.h"
