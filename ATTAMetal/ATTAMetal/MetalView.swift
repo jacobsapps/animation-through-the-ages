@@ -11,16 +11,32 @@ final class MetalView: MTKView {
 
     var commandQueue: MTLCommandQueue!
     var pipelineState: MTLRenderPipelineState!
-    
+    var displayLink: CADisplayLink!
+    var startTime: CFTimeInterval?
+    var time: Float = 0.0
+
     override init(frame frameRect: CGRect, device: MTLDevice?) {
         super.init(frame: frameRect, device: device)
         commandQueue = device?.makeCommandQueue()!
         createRenderPipelineState()
-        clearColor = MTLClearColor(red: 0.5, green: 0.8, blue: 0.1, alpha: 1.0)
+        clearColor = MTLClearColor(red: 0.8, green: 0.8, blue: 0.8, alpha: 1.0)
+        displayLink = CADisplayLink(target: self, selector: #selector(update))
+        displayLink.add(to: .current, forMode: .default)
     }
 
     required init(coder: NSCoder) {
         fatalError()
+    }
+    
+    @objc func update(displayLink: CADisplayLink) {
+        if startTime == nil {
+            startTime = displayLink.timestamp
+        }
+        
+        let elapsed = displayLink.timestamp - startTime!
+        time = Float(elapsed)
+        
+        self.setNeedsDisplay()
     }
     
     func createRenderPipelineState() {
@@ -52,6 +68,7 @@ final class MetalView: MTKView {
         ]
         
         renderEncoder.setVertexBytes(vertices, length: vertices.count * MemoryLayout<SIMD4<Float>>.size, index: 0)
+        renderEncoder.setVertexBytes(&time, length: MemoryLayout<Float>.size, index: 1)
         renderEncoder.drawPrimitives(type: .triangle, vertexStart: 0, vertexCount: 3)
         renderEncoder.endEncoding()
         commandBuffer.present(drawable)
