@@ -18,14 +18,14 @@ struct ATTASwiftUIApp: App {
                         Label("", systemImage: "dumbbell.fill")
                     }
                 
-                DumbbellView()
+                CourtsideView()
                     .tabItem {
-                        Label("", systemImage: "dumbbell.fill")
+                        Label("", systemImage: "sportscourt.fill")
                     }
                 
-                DumbbellView()
+                KeyView()
                     .tabItem {
-                        Label("", systemImage: "dumbbell.fill")
+                        Label("", systemImage: "trophy")
                     }
             }
             .tint(.white)

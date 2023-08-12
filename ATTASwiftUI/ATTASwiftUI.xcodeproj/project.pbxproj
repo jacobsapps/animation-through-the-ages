@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16585D1A2A8799110088AA44 /* CourtsideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16585D192A8799110088AA44 /* CourtsideView.swift */; };
+		16585D1C2A8799580088AA44 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16585D1B2A8799580088AA44 /* KeyView.swift */; };
 		169B63F12A86EBCB005B0749 /* ATTASwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169B63F02A86EBCB005B0749 /* ATTASwiftUIApp.swift */; };
 		169B63F32A86EBCB005B0749 /* DumbbellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169B63F22A86EBCB005B0749 /* DumbbellView.swift */; };
 		169B63F52A86EBCD005B0749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169B63F42A86EBCD005B0749 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16585D192A8799110088AA44 /* CourtsideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtsideView.swift; sourceTree = "<group>"; };
+		16585D1B2A8799580088AA44 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
 		169B63ED2A86EBCB005B0749 /* ATTASwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATTASwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		169B63F02A86EBCB005B0749 /* ATTASwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTASwiftUIApp.swift; sourceTree = "<group>"; };
 		169B63F22A86EBCB005B0749 /* DumbbellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbbellView.swift; sourceTree = "<group>"; };
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				169B63F02A86EBCB005B0749 /* ATTASwiftUIApp.swift */,
+				16585D1B2A8799580088AA44 /* KeyView.swift */,
+				16585D192A8799110088AA44 /* CourtsideView.swift */,
 				169B63F22A86EBCB005B0749 /* DumbbellView.swift */,
 				169B63F42A86EBCD005B0749 /* Assets.xcassets */,
 				169B63F62A86EBCD005B0749 /* Preview Content */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16585D1C2A8799580088AA44 /* KeyView.swift in Sources */,
 				169B63F32A86EBCB005B0749 /* DumbbellView.swift in Sources */,
+				16585D1A2A8799110088AA44 /* CourtsideView.swift in Sources */,
 				169B63F12A86EBCB005B0749 /* ATTASwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

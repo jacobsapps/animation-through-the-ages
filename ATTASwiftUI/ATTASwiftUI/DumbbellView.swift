@@ -48,7 +48,6 @@ struct DumbbellView: View {
             
     private func dumbell(side: Rep) -> some View {
         Image(systemName: "dumbbell.fill")
-            .foregroundColor(.white)
             .imageScale(.large)
             .foregroundColor(.accentColor)
             .scaleEffect(side.scale(rep: rep ?? .left))
