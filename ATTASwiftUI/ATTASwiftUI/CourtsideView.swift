@@ -27,7 +27,7 @@ struct CourtsideView: View {
                 }
             }
             .background { courtBackground }
-            .frame(height: 300)
+            .frame(height: 200)
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -37,8 +37,9 @@ struct CourtsideView: View {
     private var courtBackground: some View {
         Image(systemName: "sportscourt")
             .resizable()
-            .scaledToFill()
-            .foregroundColor(.accentColor.opacity(0.2))
+            .scaledToFit()
+            .frame(height: 200)
+            .foregroundColor(.white.opacity(0.2))
     }
     
     private var halfTimeButton: some View {
@@ -62,8 +63,6 @@ struct CourtsideView: View {
     }
 }
 
-struct CourtsideView_Previews: PreviewProvider {
-    static var previews: some View {
-        CourtsideView()
-    }
+#Preview {
+    CourtsideView()
 }

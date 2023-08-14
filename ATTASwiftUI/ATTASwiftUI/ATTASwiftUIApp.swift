@@ -2,14 +2,13 @@
 //  ATTASwiftUIApp.swift
 //  ATTASwiftUI
 //
-//  Created by Jacob Bartlett on 11/08/2023.
+//  Created by Jacob Bartlett on 13/08/2023.
 //
 
 import SwiftUI
 
 @main
 struct ATTASwiftUIApp: App {
-    
     var body: some Scene {
         WindowGroup {
             TabView {
@@ -23,9 +22,9 @@ struct ATTASwiftUIApp: App {
                         Label("", systemImage: "sportscourt.fill")
                     }
                 
-                KeyView()
+                DeadliftView()
                     .tabItem {
-                        Label("", systemImage: "trophy")
+                        Label("", systemImage: "figure.strengthtraining.traditional")
                     }
             }
             .tint(.white)

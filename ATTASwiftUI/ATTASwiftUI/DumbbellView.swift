@@ -29,14 +29,14 @@ struct DumbbellView: View {
         }
     }
     
-    @State var rep: Rep?
-    
+    @State private var rep: Rep?
+
     var body: some View {
         HStack {
             dumbell(side: .left)
             dumbell(side: .right)
         }
-        .padding()
+        .padding(40)
         .background(Color.indigo)
         .onAppear {
             if rep == nil {
@@ -49,7 +49,7 @@ struct DumbbellView: View {
     private func dumbell(side: Rep) -> some View {
         Image(systemName: "dumbbell.fill")
             .imageScale(.large)
-            .foregroundColor(.accentColor)
+            .foregroundColor(.white)
             .scaleEffect(side.scale(rep: rep ?? .left))
             .frame(maxWidth: .infinity,
                    maxHeight: .infinity,
@@ -63,8 +63,6 @@ struct DumbbellView: View {
     }
 }
 
-struct DumbbellView_Previews: PreviewProvider {
-    static var previews: some View {
-        DumbbellView()
-    }
+#Preview {
+    DumbbellView()
 }
